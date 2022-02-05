@@ -10,6 +10,5 @@ const calculateData = (input_value) => {
     second_output_data.innerText = `${initial}`
   }
 }
-console.log(initial)
 second_preparation_button.addEventListener('click', ()=>calculateData(input.value))
 
